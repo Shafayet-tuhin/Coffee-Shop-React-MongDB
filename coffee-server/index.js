@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 
 
-
+ const uri= 
 
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
