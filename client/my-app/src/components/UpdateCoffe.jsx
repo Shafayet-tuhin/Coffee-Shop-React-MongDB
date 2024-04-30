@@ -28,7 +28,7 @@ const UpdateCoffe = () => {
     console.log(user)
  
 
-    fetch(`http://localhost:5000/user/${data._id}`, {
+    fetch(`https://coffee-server-pink.vercel.app/user/${data._id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -39,7 +39,7 @@ const UpdateCoffe = () => {
     .then((data) => {
       if (data.acknowledged) {
 
-        fetch("http://localhost:5000/user")
+        fetch("https://coffee-server-pink.vercel.app/user")
        .then(res => res.json())
        .then(data => setUsers(data))
 

@@ -29,12 +29,12 @@ const router = createBrowserRouter([
       {
         path: "/updateCoffe/:id",
         element: <UpdateCoffe />,
-        loader: ({ params }) => fetch(`http://localhost:5000/user/${params.id}`)
+        loader: ({ params }) => fetch(`https://coffee-server-pink.vercel.app/user/${params.id}`)
       },
       {
         path: "/view/:id",
         element: <View />,
-        loader: ({ params }) => fetch(`http://localhost:5000/user/${params.id}`)
+        loader: ({ params }) => fetch(`https://coffee-server-pink.vercel.app/user/${params.id}`)
       },
     ]
   },

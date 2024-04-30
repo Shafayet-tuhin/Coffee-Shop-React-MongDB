@@ -48,7 +48,7 @@ export const ContactUs = () => {
                 <textarea required className="shadow appearance-no text-2xl ne border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" placeholder="Your Message"></textarea>
             </div>
             <div className="flex items-center justify-center">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                <button className="animate-bounce bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                     Send
                 </button>
             </div>

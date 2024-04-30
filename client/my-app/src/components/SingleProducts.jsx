@@ -24,7 +24,7 @@ const SingleProducts = (item) => {
             if (result.isConfirmed) {
 
 
-              fetch(`http://localhost:5000/user/${data._id}` , {
+              fetch(`https://coffee-server-pink.vercel.app/user/${data._id}` , {
                 method: 'DELETE'
               })
                .then(res => res.json())

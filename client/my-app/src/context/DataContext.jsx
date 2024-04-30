@@ -7,7 +7,7 @@ const UserProvider = ({children}) => {
     const [users , setUsers] = useState([]) ; 
 
     useEffect(()=>{
-             fetch('http://localhost:5000/user')
+             fetch('https://coffee-server-pink.vercel.app/user' )
              .then((res)=> res.json())
              .then((data)=> setUsers(data)) 
     },[])

@@ -17,7 +17,7 @@ const Products = () => {
             <div className='font-abc flex flex-col items-center gap-3 mb-12'>
                 <p className='text-[#331A15] font-normal text-4xl lg:text-6xl '>Our Popular Products</p>
                 <Link to='/addCoffe' >
-                    <button className=' flex items-center gap-1 bg-[#E3B577] text-font-normal text-xl lg:text-2xl px-3 lg:px-5 py-[0.56rem] rounded-md border-2  border-[#9c9c9c] text-[#ffffff]'> Add Coffee <LuCoffee />
+                    <button className='animate-bounce flex items-center gap-1 bg-[#E3B577] text-font-normal text-xl lg:text-2xl px-3 lg:px-5 py-[0.56rem] rounded-md border-2  border-[#9c9c9c] text-[#ffffff]'> Add Coffee <LuCoffee />
                     </button>
                 </Link>
             </div>

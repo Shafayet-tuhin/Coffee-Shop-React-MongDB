@@ -27,7 +27,7 @@ const {users , setUsers} = useContext(userContext)
 
     console.log(user)
 
-    fetch('http://localhost:5000/user', {
+    fetch('https://coffee-server-pink.vercel.app/user', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -36,7 +36,7 @@ const {users , setUsers} = useContext(userContext)
     })
      .then(res => res.json())
      .then(data => {
-       fetch("http://localhost:5000/user")
+       fetch("https://coffee-server-pink.vercel.app/user")
        .then(res => res.json())
        .then(data => setUsers(data))
        
